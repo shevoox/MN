@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>mn-ingeniaria</title>
@@ -134,17 +134,39 @@
                 id="navbarCollapse"
               >
                 <div class="navbar-nav mr-auto py-0">
-                  <a href="index.html" class="nav-item nav-link active">Home</a>
-                  <a href="#product" class="nav-item nav-link">Product</a>
-                  <a href="#about" class="nav-item nav-link">About</a>
-                  <a href="#contact" class="nav-item nav-link">Contact</a>
+                  <a
+                    href="index.html"
+                    class="nav-item nav-link active"
+                    data-translate="home"
+                    >Home</a
+                  >
+                  <a
+                    href="#product"
+                    class="nav-item nav-link"
+                    data-translate="product"
+                    >Product</a
+                  >
+                  <a
+                    href="#about"
+                    class="nav-item nav-link"
+                    data-translate="about"
+                    >About</a
+                  >
+                  <a
+                    href="#contact"
+                    class="nav-item nav-link"
+                    data-translate="contact"
+                    >Contact</a
+                  >
                   <div class="lang-menu">
-                    <div class="selected-lang">Eng</div>
-                    <ul>
-                      <li>
-                        <a href="#" class="de">Ger</a>
-                      </li>
-                    </ul>
+                    <select id="mySelect">
+                      <option value="en" data-translate="english">
+                        English
+                      </option>
+                      <option value="ital" data-translate="italian">
+                        Italian
+                      </option>
+                    </select>
                   </div>
                 </div>
               </div>
@@ -173,7 +195,10 @@
                   >
                     MN-INGENIARIA
                   </h6>
-                  <h1 class="display-3 text-white mb-4 animated slideInDown">
+                  <h1
+                    class="display-3 text-white mb-4 animated slideInDown"
+                    data-translate="choice"
+                  >
                     Your best choice
                   </h1>
                 </div>
@@ -190,7 +215,10 @@
                   >
                     MN-INGENIARIA
                   </h6>
-                  <h1 class="display-3 text-white mb-4 animated slideInDown">
+                  <h1
+                    class="display-3 text-white mb-4 animated slideInDown"
+                    data-translate="choice"
+                  >
                     Your best choice
                   </h1>
                 </div>
@@ -207,7 +235,10 @@
                   >
                     MN-INGENIARIA
                   </h6>
-                  <h1 class="display-3 text-white mb-4 animated slideInDown">
+                  <h1
+                    class="display-3 text-white mb-4 animated slideInDown"
+                    data-translate="choice"
+                  >
                     Your best choice
                   </h1>
                 </div>
@@ -224,7 +255,10 @@
                   >
                     MN-INGENIARIA
                   </h6>
-                  <h1 class="display-3 text-white mb-4 animated slideInDown">
+                  <h1
+                    class="display-3 text-white mb-4 animated slideInDown"
+                    data-translate="choice"
+                  >
                     Your best choice
                   </h1>
                 </div>
@@ -241,7 +275,10 @@
                   >
                     MN-INGENIARIA
                   </h6>
-                  <h1 class="display-3 text-white mb-4 animated slideInDown">
+                  <h1
+                    class="display-3 text-white mb-4 animated slideInDown"
+                    data-translate="choice"
+                  >
                     Your best choice
                   </h1>
                 </div>
@@ -258,7 +295,10 @@
                   >
                     MN-INGENIARIA
                   </h6>
-                  <h1 class="display-3 text-white mb-4 animated slideInDown">
+                  <h1
+                    class="display-3 text-white mb-4 animated slideInDown"
+                    data-translate="choice"
+                  >
                     Your best choice
                   </h1>
                 </div>
@@ -275,7 +315,10 @@
                   >
                     MN-INGENIARIA
                   </h6>
-                  <h1 class="display-3 text-white mb-4 animated slideInDown">
+                  <h1
+                    class="display-3 text-white mb-4 animated slideInDown"
+                    data-translate="choice"
+                  >
                     Your best choice
                   </h1>
                 </div>
@@ -308,12 +351,19 @@
       <div class="container-xxl py-5" id="product">
         <div class="container">
           <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title text-center text-primary text-uppercase">
+            <h6
+              class="section-title text-center text-primary text-uppercase"
+              data-translate="products"
+            >
               Products
             </h6>
-            <h1 class="mb-5">
+            <h1 class="mb-5" data-translate="explore">
               Explore Our
-              <span class="text-primary text-uppercase">Products</span>
+              <span
+                class="text-primary text-uppercase"
+                data-translate="products"
+                >Products</span
+              >
             </h1>
           </div>
           <div class="row g-4">
@@ -323,18 +373,14 @@
             >
               <div class="room-item shadow rounded overflow-hidden">
                 <div class="position-relative">
-                  <img
-                    class="img-fluid"
-                    src="img/pcc.jpg"
-                    alt=""
-                  />
+                  <img class="img-fluid" src="img/pcc.jpg" alt="" />
                 </div>
                 <div class="p-4 mt-2">
                   <div class="d-flex justify-content-between mb-3">
                     <h5 class="mb-0">PCC Panels</h5>
                   </div>
 
-                  <p class="text-body mb-3">
+                  <p class="text-body mb-3" data-translate="pcc">
                     We matured a background in design and manufacturing of
                     distribution Power Control Center (PCC panel). It is
                     efficiently used to distribute the power to the different
@@ -358,18 +404,14 @@
             >
               <div class="room-item shadow rounded overflow-hidden">
                 <div class="position-relative">
-                  <img
-                    class="img-fluid"
-                    src="img/mcc.jpg"
-                    alt=""
-                  />
+                  <img class="img-fluid" src="img/mcc.jpg" alt="" />
                 </div>
                 <div class="p-4 mt-2">
                   <div class="d-flex justify-content-between mb-3">
                     <h5 class="mb-0">MCC Panels</h5>
                   </div>
 
-                  <p class="text-body mb-3">
+                  <p class="text-body mb-3" data-translate="mcc">
                     We are able to supply Motor control centres for sale made
                     with Cutler Hammer®, Allen Bradley®, General Electric®,
                     Siemens®. A motor control centre (MCC) is an assembly of one
@@ -394,18 +436,14 @@
             >
               <div class="room-item shadow rounded overflow-hidden">
                 <div class="position-relative">
-                  <img
-                    class="img-fluid"
-                    src="img/apfc.jpg"
-                    alt=""
-                  />
+                  <img class="img-fluid" src="img/apfc.jpg" alt="" />
                 </div>
                 <div class="p-4 mt-2">
                   <div class="d-flex justify-content-between mb-3">
                     <h5 class="mb-0">APFC Panels</h5>
                   </div>
 
-                  <p class="text-body mb-3">
+                  <p class="text-body mb-3" data-translate="apfc">
                     APFC or Automatic Power Factor Control Panels are mainly
                     used for the improvement of Power Factor. Power Factor can
                     be explained as ratio of active power to apparent power and
@@ -435,11 +473,7 @@
             >
               <div class="room-item shadow rounded overflow-hidden">
                 <div class="position-relative">
-                  <img
-                    class="img-fluid"
-                    src="img/Soft starters.jpg"
-                    alt=""
-                  />
+                  <img class="img-fluid" src="img/Soft starters.jpg" alt="" />
                 </div>
                 <div class="p-4 mt-2">
                   <div class="d-flex justify-content-between mb-3">
@@ -448,7 +482,7 @@
                     </h5>
                   </div>
 
-                  <p class="text-body mb-3">
+                  <p class="text-body mb-3" data-translate="soft">
                     We supply qualitative LV/MV Soft Starter panels that are
                     used to eliminate the high in-rush current and start-up
                     torque on every start. MV Soft Starter panels, offered by
@@ -476,18 +510,14 @@
             >
               <div class="room-item shadow rounded overflow-hidden">
                 <div class="position-relative">
-                  <img
-                    class="img-fluid"
-                    src="img/vfd.jpg"
-                    alt=""
-                  />
+                  <img class="img-fluid" src="img/vfd.jpg" alt="" />
                 </div>
                 <div class="p-4 mt-2">
                   <div class="d-flex justify-content-between mb-3">
                     <h5 class="mb-0">VFD Panels</h5>
                   </div>
 
-                  <p class="text-body mb-3">
+                  <p class="text-body mb-3" data-translate="vfd">
                     Due to drastic reduction in pricing and improvisation of
                     reliablility, Conventional starters- DOL or SDL Star Delta
                     are being increasingly replaced by VFD i.e. Variable
@@ -516,18 +546,14 @@
             >
               <div class="room-item shadow rounded overflow-hidden">
                 <div class="position-relative">
-                  <img
-                    class="img-fluid"
-                    src="img/ht panel.jpg"
-                    alt=""
-                  />
+                  <img class="img-fluid" src="img/ht panel.jpg" alt="" />
                 </div>
                 <div class="p-4 mt-2">
                   <div class="d-flex justify-content-between mb-3">
                     <h5 class="mb-0">HT Panel/VCB Panel</h5>
                   </div>
 
-                  <p class="text-body mb-3">
+                  <p class="text-body mb-3" data-translate="ht">
                     Mn-ingeniaria is the one of the leading suppliers of 11KV
                     Vacuum Circuit Breaker Panel (11kV VCB Switchgear) that is
                     known for high performance, rigid construction and longer
@@ -561,14 +587,18 @@
             >
               <div class="room-item shadow rounded overflow-hidden">
                 <div class="position-relative">
-                  <img class="img-fluid" src="img/Fully-Draw-out-Panels.jpg" alt="" />
+                  <img
+                    class="img-fluid"
+                    src="img/Fully-Draw-out-Panels.jpg"
+                    alt=""
+                  />
                 </div>
                 <div class="p-4 mt-2">
                   <div class="d-flex justify-content-between mb-3">
                     <h5 class="mb-0">Fully Draw-out Panels</h5>
                   </div>
 
-                  <p class="text-body mb-3">
+                  <p class="text-body mb-3" data-translate="fully">
                     We have specialization in manufacturing premium quality
                     fully draw out MCC panels made of various enclosure. These
                     are efficiently used in critical areas of plants where in
@@ -577,23 +607,6 @@
                     feeder module can be fully replaced without isolating the
                     main power. Techno module is a modern, patented modular
                     construction system for building LV panel boards.
-                    <hr> ⦁ Our
-                    Fully Drawout MCC panels are made of ETA enclosure
-                     <hr>⦁ MCC
-                    Panels are fully modular Type
-                    <hr>⦁ Enclosures are Dip Coated
-                    and Powder Coated 1.6/2mm CRCA Sheet Steel 
-                    <hr>⦁ For low-voltage
-                    switchgear with design verification to IEC/EN 61439-1 and
-                    -2.
-                    <hr> ⦁ For control systems and power distributors structured
-                    system solution for switchgear with Form separation 1-4b.
-                    <hr> ⦁
-                    Simple and friendly installation system assembly 
-                    <hr>⦁ All
-                    switchgears are Branded Like SIEMENS/ABB/SCHNEIDER/L&T/GE
-                    Etc 
-                    <hr>⦁ All Meters are Digital Meters
                   </p>
                 </div>
               </div>
@@ -614,10 +627,23 @@
                     </h5>
                   </div>
 
-                  <p class="text-body mb-3">
-                    To understand why poor power factor is a problem, we have to look at our steam and water wheel in a different way.  First, assume all the water that pushes the wheel is used.  And then, the water company only charges for that much water.  However, the water company cost is more. You need enough water to turn the wheel, which they supplied, but they also had to keep the stream full enough to make that designated water useful.  As a result, the water company supplied more water than needed.
-The water company got the water back that you did not use so they really can't charge you for it.  Right? Well, not really because as the water ran down your stream, some of it was absorbed by the stream bed, some of it evaporated, etc.  In any event, the water company had losses.  Not only that, the water you needed to fill your stream filled up the water companies pipes, which meant they did not have the capacity to sell water to another customer. 
-
+                  <p class="text-body mb-3" data-translate="rotary">
+                    To understand why poor power factor is a problem, we have to
+                    look at our steam and water wheel in a different way. First,
+                    assume all the water that pushes the wheel is used. And
+                    then, the water company only charges for that much water.
+                    However, the water company cost is more. You need enough
+                    water to turn the wheel, which they supplied, but they also
+                    had to keep the stream full enough to make that designated
+                    water useful. As a result, the water company supplied more
+                    water than needed. The water company got the water back that
+                    you did not use so they really can't charge you for it.
+                    Right? Well, not really because as the water ran down your
+                    stream, some of it was absorbed by the stream bed, some of
+                    it evaporated, etc. In any event, the water company had
+                    losses. Not only that, the water you needed to fill your
+                    stream filled up the water companies pipes, which meant they
+                    did not have the capacity to sell water to another customer.
                   </p>
                 </div>
               </div>
@@ -635,29 +661,32 @@ The water company got the water back that you did not use so they really can't c
         <div class="container">
           <div class="row g-5 align-items-center">
             <div class="col-lg-6">
-              <h6 class="section-title text-start text-primary text-uppercase">
+              <h6
+                class="section-title text-start text-primary text-uppercase"
+                data-translate="aboutus"
+              >
                 About Us
               </h6>
-              <h1 class="mb-4">Who we are? </h1>
-              <p class="mb-4">
-                We are a team of engineers who have formed a young startup
-                aimed at the engineering of electrical systems as well as
-                of industrial automation operating in the Oil & Gas sector.
-                We dedicate a part of our energies to the realization a
-                state of the art and according to European standards IEC frameworks
+              <h1 class="mb-4" data-translate="who">Who we are?</h1>
+              <p class="mb-4" data-translate="weare">
+                We are a team of engineers who have formed a young startup aimed
+                at the engineering of electrical systems as well as of
+                industrial automation operating in the Oil & Gas sector. We
+                dedicate a part of our energies to the realization a state of
+                the art and according to European standards IEC frameworks
                 electric smart, by crossing together traditional components of
                 power with IOT data collection and analysis systems by
                 distributed supervision in order to monitor and above all
-                provide useful data for decision makers about
-                both predictive and periodic maintenance interventions but
-                especially to get the most out of various performance
-                industrial structures. We can deliver systems that
-                addressing cross-cutting points such as smart distribution
-                electricity, soft-starter for three-phase motors
-                induction and synchronous, intelligent phase plugs, MCC, PCC and etc ...
-                MN-Ingeniaria has a young and innovative spirit that of the foundations
-                traditional flexible enough to use current IT with
-                commitment and dedication and above all punctuality.
+                provide useful data for decision makers about both predictive
+                and periodic maintenance interventions but especially to get the
+                most out of various performance industrial structures. We can
+                deliver systems that addressing cross-cutting points such as
+                smart distribution electricity, soft-starter for three-phase
+                motors induction and synchronous, intelligent phase plugs, MCC,
+                PCC and etc ... MN-Ingeniaria has a young and innovative spirit
+                that of the foundations traditional flexible enough to use
+                current IT with commitment and dedication and above all
+                punctuality.
               </p>
             </div>
             <div class="col-lg-6">
@@ -709,10 +738,9 @@ The water company got the water back that you did not use so they really can't c
               CHOOSE US
             </h6>
             <h1 class="mb-5">
-              WHY CHOOSE 
+              WHY CHOOSE
               <span class="text-primary text-uppercase">US</span>
             </h1>
-          
           </div>
           <div class="row g-4">
             <div
@@ -725,7 +753,6 @@ The water company got the water back that you did not use so they really can't c
                 </div>
                 <div class="text-center p-4 mt-3">
                   <h5 class="fw-bold mb-0">Title</h5>
-          
                 </div>
               </div>
             </div>
@@ -739,7 +766,6 @@ The water company got the water back that you did not use so they really can't c
                 </div>
                 <div class="text-center p-4 mt-3">
                   <h5 class="fw-bold mb-0">Title</h5>
-          
                 </div>
               </div>
             </div>
@@ -753,7 +779,6 @@ The water company got the water back that you did not use so they really can't c
                 </div>
                 <div class="text-center p-4 mt-3">
                   <h5 class="fw-bold mb-0">Title</h5>
-          
                 </div>
               </div>
             </div>
@@ -767,7 +792,6 @@ The water company got the water back that you did not use so they really can't c
                 </div>
                 <div class="text-center p-4 mt-3">
                   <h5 class="fw-bold mb-0">Title</h5>
-          
                 </div>
               </div>
             </div>
@@ -788,13 +812,17 @@ The water company got the water back that you did not use so they really can't c
                   class="img-fluid img-thumbnail"
                 />
                 <hr />
-                <h4 class="mb-4">
+                <h4 class="mb-4" data-translate="best">
                   Best
-                  <span class="text-primary text-uppercase">Choice</span>
+                  <span class="text-primary text-uppercase" data-translate="ch"
+                    >Choice</span
+                  >
                 </h4>
                 <div class="position-relative mx-auto" style="max-width: 400px">
                   <p>
-                    We are a team of engineers who have formed a young startup aimed at the engineering of electrical systems as well as of industrial automation operating in the Oil & Gas sector.
+                    We are a team of engineers who have formed a young startup
+                    aimed at the engineering of electrical systems as well as of
+                    industrial automation operating in the Oil & Gas sector.
                   </p>
                 </div>
               </div>
@@ -822,9 +850,11 @@ The water company got the water back that you did not use so they really can't c
             <div class="col-md-6 col-lg-3">
               <h6
                 class="section-title text-start text-primary text-uppercase mb-4"
+                data-translate="contact"
               >
                 Contact
               </h6>
+              <!-- data-translate="location" -->
               <p class="mb-2">
                 <i class="fa fa-map-marker-alt me-3"></i>Location Here
               </p>
@@ -852,13 +882,31 @@ The water company got the water back that you did not use so they really can't c
                 <div class="col-md-6">
                   <h6
                     class="section-title text-start text-primary text-uppercase mb-4"
+                    data-translate="company"
                   >
                     Company
                   </h6>
-                  <a class="btn btn-link" href="index.html">HOME</a>
-                  <a class="btn btn-link" href="#product">PRODUCT</a>
-                  <a class="btn btn-link" href="#about">ABOUT</a>
-                  <a class="btn btn-link" href="#contact">CONTACT</a>
+                  <a
+                    class="btn btn-link"
+                    href="index.html"
+                    data-translate="home"
+                    >HOME</a
+                  >
+                  <a
+                    class="btn btn-link"
+                    href="#product"
+                    data-translate="product"
+                    >PRODUCT</a
+                  >
+                  <a class="btn btn-link" href="#about" data-translate="about"
+                    >ABOUT</a
+                  >
+                  <a
+                    class="btn btn-link"
+                    href="#contact"
+                    data-translate="contact"
+                    >CONTACT</a
+                  >
                 </div>
               </div>
             </div>
@@ -886,6 +934,7 @@ The water company got the water back that you did not use so they really can't c
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Template Javascript -->
+    <script src="js/language.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

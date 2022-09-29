@@ -1,3 +1,11 @@
+$(function () {
+  $("#mySelect").change(function () {
+    localStorage.setItem("todoData", this.value);
+  });
+  if (localStorage.getItem("todoData")) {
+    $("#mySelect").val(localStorage.getItem("todoData"));
+  }
+});
 (function ($) {
   "use strict";
 
