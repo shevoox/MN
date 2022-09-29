@@ -7,7 +7,7 @@ const translations = {
     contact: "Contact",
     choice: "Your best choice",
     products: "Products",
-    explore: "Explore Our",
+    explore: `Explore Our Products`,
     english: "English",
     italian: "Italian",
     pcc: "We matured a background in design and manufacturing of distribution Power Control Center (PCC panel). It is efficiently used to distribute the power to the different parts of the Plant / Building / Industry / Township and controls the whole power supply from one single place. Our PCC Panels have created tremendous impact on our clients for their assured service with lesser maintenance. Made by high quality Panel Enclosure based on IEC standards for instance 61439-1 & 61439-2 , these are capable enough to control various industrial operations with guaranteed performance. These complete set up are available for our clients in well customized form as per their requirement in competitive price range.",
@@ -26,7 +26,7 @@ const translations = {
       "We are a team of engineers who have formed a young startup aimed at the engineering of electrical systems as well as of industrial automation operating in the Oil & Gas sector. We dedicate a part of our energies to the realization a state of the art and according to European standards IEC frameworks electric smart, by crossing together traditional components of power with IOT data collection and analysis systems by distributed supervision in order to monitor and above all provide useful data for decision makers about both predictive and periodic maintenance interventions but especially to get the most out of various performance industrial structures. We can deliver systems that addressing cross-cutting points such as smart distribution electricity, soft-starter for three-phase motors induction and synchronous, intelligent phase plugs, MCC, PCC and etc ... MN-Ingeniaria has a young and innovative spirit that of the foundations traditional flexible enough to use current IT with commitment and dedication and above all punctuality.",
     company: "Company",
 
-    best: "Best",
+    best: "Best Choice",
     ch: "Choice",
   },
 
@@ -37,7 +37,7 @@ const translations = {
     contact: "Contatto",
     choice: "La tua scelta migliore",
     products: "Prodotti",
-    explore: "Esplora il nostro",
+    explore: "Esplora i nostri prodotti",
     english: "English",
     italian: "Italian",
     pcc: "Abbiamo maturato un background nella progettazione e produzione di Power Control Center (pannello PCC) di distribuzione. Viene utilizzato in modo efficiente per distribuire l'energia alle diverse parti dell'Impianto/Edilizia/Industria/Comune e controlla l'intera alimentazione da un unico luogo. I nostri pannelli PCC hanno creato un enorme impatto sui nostri clienti per il loro servizio assicurato con una minore manutenzione. Realizzati con armadi a pannello di alta qualità basati sugli standard IEC, ad esempio 61439-1 e 61439-2, sono sufficientemente in grado di controllare varie operazioni industriali con prestazioni garantite. Questi set up completi sono disponibili per i nostri clienti in una forma ben personalizzata secondo le loro esigenze in una fascia di prezzo competitivo",
@@ -55,7 +55,7 @@ const translations = {
     weare:
       "Siamo un team di ingegneri che ha formato una giovane startup rivolta all’ingegnerizzazione di sistemi elettrici nonché d’automazione industriale che opera nell’ambito del Oil & Gas. Dedichiamo una parte delle nostre energie alla realizzazione a regola d’arte e secondo gli standard Europei IEC quadri elettrici smart, incrociando insieme componenti tradizionali di potenza con sistemi di raccoglimento ed analisi dei dati IOT di supervisione distribuita al fine di monitorare e soprattutto fornire dati utili per i decision makers a riguardo di interventi di manutenzione sia predettiva che periodica ma soprattutto per ottenere il massimo delle prestazioni di varie strutture industriali. Siamo in grado di fornire sistemi che riguardano punti crociali come la distribuzione smart dell’energia elettrica, soft-starters per motori trifasi induction e syncronous, rifasatori intelligenti, MCC, PCC e ecc… MN-Ingeniaria ha spirito giovane ed innovativo che dei basi tradizionali abbastanza flessibile da sfruttare l’IT attuale con impegno e dedizione e soprattutto puntualità.",
     company: "Azienda",
-    best: "Migliore",
+    best: "Scelta Migliore",
     ch: "Scelta",
   },
 };
