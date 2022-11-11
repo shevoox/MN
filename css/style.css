@@ -35,6 +35,11 @@
   visibility: visible;
   opacity: 1;
 }
+#spinner.showw {
+  transition: opacity 0s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
+}
 
 /*** Button ***/
 .btn {
@@ -484,19 +489,30 @@
 }
 /* --------------------------------------------- */
 .color-page-header {
-  background: rgb(13, 13, 162);
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #24243e,
+    #302b63
+  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    90deg,
-    rgba(13, 13, 162, 1) 0%,
-    rgba(7, 7, 81, 1) 100%
-  ) !important;
+    to left,
+    #24243e,
+    #302b63
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .heade-log {
+  background: #0575e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #021b79,
+    #0575e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    90deg,
-    rgba(53, 63, 255, 1) 0%,
-    rgba(36, 54, 99, 1) 100%
-  ) !important;
+    to left,
+    #021b79,
+    #0575e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /* ==================================== */
 .navbar-dark .navbar-nav .nav-link:hover,

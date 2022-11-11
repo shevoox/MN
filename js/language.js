@@ -60,13 +60,25 @@ const translations = {
   },
 };
 const languageSelector = document.querySelector("select");
+const spiner = document.getElementById("spinner");
+
 languageSelector.addEventListener("change", (event) => {
+  spinner();
+
   setlanguage(event.target.value);
   localStorage.setItem("lang", event.target.value);
 });
+
+function spinner() {
+  spiner.classList.add("showw");
+  setTimeout(() => {
+    spiner.classList.remove("showw");
+  }, 100);
+}
 document.addEventListener("DOMContentLoaded", () => {
   setlanguage(localStorage.getItem("lang"));
 });
+
 const setlanguage = (language) => {
   const element = document.querySelectorAll("[data-translate]");
   element.forEach((element) => {
