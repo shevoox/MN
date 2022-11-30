@@ -8,8 +8,8 @@ const translations = {
     choice: "Your best choice",
     products: "Products",
     explore: `Explore Our Products`,
-    english: "English",
-    italian: "Italian",
+    english: "En",
+    italian: "It",
     pcc: "We matured a background in design and manufacturing of distribution Power Control Center (PCC panel). It is efficiently used to distribute the power to the different parts of the Plant / Building / Industry / Township and controls the whole power supply from one single place. Our PCC Panels have created tremendous impact on our clients for their assured service with lesser maintenance. Made by high quality Panel Enclosure based on IEC standards for instance 61439-1 & 61439-2 , these are capable enough to control various industrial operations with guaranteed performance. These complete set up are available for our clients in well customized form as per their requirement in competitive price range.",
     mcc: "We are able to supply Motor control centres for sale made with Cutler Hammer®, Allen Bradley®, General Electric®, Siemens®. A motor control centre (MCC) is an assembly of one or more enclosed sections having a common power bus and principally containing motor control units. Motor control centres are in modern practice a factory assembly of several motor starters. A motor control centre can include variable frequency drives, programmable controllers, and metering and may also be the electrical service entrance for the building. All our refurbished motors control centre parts will be fully repaired or replaced as required. We offer MCC (Motor Control Centres) for grouping motor control, associated control, distribution equipment and industrial communications for industrial and commercial applications.",
     apfc: "APFC or Automatic Power Factor Control Panels are mainly used for the improvement of Power Factor. Power Factor can be explained as ratio of active power to apparent power and it is a key factor in measuring electrical consumption. Everyone knows that how costly electricity has become in present time. Therefore it becomes utmost important to cut down on electrical consumption for reducing expenditure. APFC Panels come real handy in the achievement of this purpose. Use of these control panels becomes indispensable in those industries where electrical installations are meant to supply to large electrical load. A drop in Power Factor can attract operational losses and a penalty from electricity board, responsible for electricity supply. APFC Panels can effectively and automatically manage quickly changing and scattered loads along with the retention of high Power Factor. We are renowned manufacturers of APFC Panels symbolized with quality and reliability. These are available in different current ratings to cater to distinct applications.",
@@ -28,6 +28,12 @@ const translations = {
 
     best: "Best Choice",
     ch: "Choice",
+    iot: "IOT & ELECTRICAL DEVICE",
+    smart: "SMART APPs",
+    grid: "SMART GRID SOLUTIONS",
+    bpec: "BPEC Is A New Way To Approach Internet People Linking In Reliable And Responsable Life Mode",
+    whychoose: "WHY CHOOSE US",
+    c: "CHOOSE US",
   },
 
   ital: {
@@ -38,8 +44,8 @@ const translations = {
     choice: "La tua scelta migliore",
     products: "Prodotti",
     explore: "Esplora i nostri prodotti",
-    english: "English",
-    italian: "Italian",
+    english: "En",
+    italian: "It",
     pcc: "Abbiamo maturato un background nella progettazione e produzione di Power Control Center (pannello PCC) di distribuzione. Viene utilizzato in modo efficiente per distribuire l'energia alle diverse parti dell'Impianto/Edilizia/Industria/Comune e controlla l'intera alimentazione da un unico luogo. I nostri pannelli PCC hanno creato un enorme impatto sui nostri clienti per il loro servizio assicurato con una minore manutenzione. Realizzati con armadi a pannello di alta qualità basati sugli standard IEC, ad esempio 61439-1 e 61439-2, sono sufficientemente in grado di controllare varie operazioni industriali con prestazioni garantite. Questi set up completi sono disponibili per i nostri clienti in una forma ben personalizzata secondo le loro esigenze in una fascia di prezzo competitivo",
     mcc: "Siamo in grado di fornire Motor control centers in vendita realizzati con Cutler Hammer®, Allen Bradley®, General Electric®, Siemens®. Un motor control center (MCC) è un insieme di una o più sezioni chiuse aventi un bus di alimentazione comune e contenenti principalmente unità di controllo del motore. I centri di controllo motore sono nella pratica moderna un assemblaggio in fabbrica di diversi avviatori motore. Un centro di controllo motori può includere azionamenti a frequenza variabile, controllori programmabili e contatori e può anche fungere da ingresso di servizio elettrico per l'edificio. Tutte le parti del nostro centro di controllo motori ricondizionate saranno completamente riparate o sostituite secondo necessità. Offriamo MCC (Motor Control Centers) per il raggruppamento di controllo motore, controllo associato, apparecchiature di distribuzione e comunicazioni industriali per applicazioni industriali e commerciali.",
     apfc: "I pannelli SAPFC o Smart Automatic Power Factor Corrector sono utilizzati principalmente per il miglioramento del Power Factor. Il fattore di potenza può essere spiegato come rapporto tra potenza attiva e potenza apparente ed è un fattore chiave nella misurazione del consumo elettrico. Tutti sanno quanto sia diventata costosa l'elettricità al giorno d'oggi. Diventa quindi estremamente importante ridurre i consumi elettrici per ridurre le spese. I pannelli APFC sono molto utili nel raggiungimento di questo scopo. L'uso di questi pannelli di controllo diventa indispensabile in quei settori in cui gli impianti elettrici sono destinati a fornire un grande carico elettrico. Un calo del fattore di potenza può comportare perdite operative e una sanzione da parte dell'ente elettrico, responsabile della fornitura di energia elettrica. I pannelli SAPFC possono gestire in modo efficace e automatico carichi che cambiano rapidamente e dispersi insieme al mantenimento di un elevato fattore di potenza. Siamo rinomati produttori di pannelli SAPFC simboli di qualità e affidabilità. Questi sono disponibili in diverse correnti nominali per soddisfare applicazioni distinte",
@@ -57,8 +63,39 @@ const translations = {
     company: "Azienda",
     best: "Scelta Migliore",
     ch: "Scelta",
+    iot: "IOT & ELECTRICAL DEVICE",
+    smart: "SMART APPs",
+    grid: "SMART GRID SOLUTIONS",
+    bpec: "BPEC è un nuovo modo di avvicinarsi a Internet Le persone che si collegano in una modalità di vita affidabile e responsabile",
+    whychoose: "PERCHÉ SCEGLIERE NOI",
+    c: "SCEGLI NOI",
   },
 };
+
+// const langdiv = document.querySelector(".lang-menu");
+// const langContainer = document.querySelector(".langcontainer");
+// const mediaQuery = window.matchMedia("(max-width: 991px)");
+// // Check if the media query is true
+// if (mediaQuery.matches) {
+//   langdiv.remove();
+//   const createDiv = document.createElement("div");
+//   createDiv.classList.add("lang-menu");
+//   createDiv.innerHTML = `
+//   <select
+//   id="mySelect"
+//   class="form-select"
+//   aria-label="Default select example"
+// >
+//   <option value="en" data-translate="english">
+//     English
+//   </option>
+//   <option value="ital" data-translate="italian">
+//     Italian
+//   </option>
+// </select>`;
+//   langContainer.appendChild(createDiv);
+// }
+
 const languageSelector = document.querySelector("select");
 const spiner = document.getElementById("spinner");
 

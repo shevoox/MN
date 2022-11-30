@@ -101,6 +101,40 @@
               <a href="index.html" class="navbar-brand d-block d-lg-none">
                 <img src="img/mn-1.png" alt="" />
               </a>
+              <div
+                class="lang-menu"
+                id="langwin"
+                style="
+                  display: flex;
+
+                  align-items: center;
+                  gap: 20px;
+                  margin-right: -100px;
+                  margin-left: 100px;
+                "
+              >
+                Language
+                <select
+                  id="mySelect"
+                  class="form-select"
+                  aria-label="Default select example"
+                >
+                  <option value="en" data-translate="english">English</option>
+                  <option value="ital" data-translate="italian">Italian</option>
+                </select>
+              </div>
+              <!-- <div
+                class="langcontainer"
+                style="
+                  display: flex;
+                  color: white;
+                  align-items: center;
+                  gap: 20px;
+                  margin-right: -100px;
+                "
+              >
+                Language
+              </div> -->
               <button
                 type="button"
                 class="navbar-toggler"
@@ -138,20 +172,6 @@
                     data-translate="contact"
                     >Contact</a
                   >
-                  <div class="lang-menu">
-                    <select
-                      id="mySelect"
-                      class="form-select"
-                      aria-label="Default select example"
-                    >
-                      <option value="en" data-translate="english">
-                        English
-                      </option>
-                      <option value="ital" data-translate="italian">
-                        Italian
-                      </option>
-                    </select>
-                  </div>
                 </div>
               </div>
             </nav>
@@ -181,9 +201,9 @@
                   </h6>
                   <h1
                     class="display-3 text-white mb-4 animated slideInDown"
-                    data-translate="choice"
+                    data-translate="iot"
                   >
-                    Your best choice
+                    IOT & ELECTRICAL DEVICE
                   </h1>
                 </div>
               </div>
@@ -201,9 +221,9 @@
                   </h6>
                   <h1
                     class="display-3 text-white mb-4 animated slideInDown"
-                    data-translate="choice"
+                    data-translate="smart"
                   >
-                    Your best choice
+                    SMART APPs
                   </h1>
                 </div>
               </div>
@@ -221,89 +241,9 @@
                   </h6>
                   <h1
                     class="display-3 text-white mb-4 animated slideInDown"
-                    data-translate="choice"
+                    data-translate="grid"
                   >
-                    Your best choice
-                  </h1>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="w-100" src="img/carousel-4.jpg" alt="Image" />
-              <div
-                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
-              >
-                <div class="p-3" style="max-width: 700px">
-                  <h6
-                    class="section-title text-white text-uppercase mb-3 animated slideInDown"
-                  >
-                    MN-INGENIARIA
-                  </h6>
-                  <h1
-                    class="display-3 text-white mb-4 animated slideInDown"
-                    data-translate="choice"
-                  >
-                    Your best choice
-                  </h1>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="w-100" src="img/carousel-5.jpg" alt="Image" />
-              <div
-                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
-              >
-                <div class="p-3" style="max-width: 700px">
-                  <h6
-                    class="section-title text-white text-uppercase mb-3 animated slideInDown"
-                  >
-                    MN-INGENIARIA
-                  </h6>
-                  <h1
-                    class="display-3 text-white mb-4 animated slideInDown"
-                    data-translate="choice"
-                  >
-                    Your best choice
-                  </h1>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="w-100" src="img/carousel-6.jpg" alt="Image" />
-              <div
-                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
-              >
-                <div class="p-3" style="max-width: 700px">
-                  <h6
-                    class="section-title text-white text-uppercase mb-3 animated slideInDown"
-                  >
-                    MN-INGENIARIA
-                  </h6>
-                  <h1
-                    class="display-3 text-white mb-4 animated slideInDown"
-                    data-translate="choice"
-                  >
-                    Your best choice
-                  </h1>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="w-100" src="img/carousel-7.jpg" alt="Image" />
-              <div
-                class="carousel-caption d-flex flex-column align-items-center justify-content-center"
-              >
-                <div class="p-3" style="max-width: 700px">
-                  <h6
-                    class="section-title text-white text-uppercase mb-3 animated slideInDown"
-                  >
-                    MN-INGENIARIA
-                  </h6>
-                  <h1
-                    class="display-3 text-white mb-4 animated slideInDown"
-                    data-translate="choice"
-                  >
-                    Your best choice
+                    SMART GRID SOLUTIONS
                   </h1>
                 </div>
               </div>
@@ -714,10 +654,13 @@
       <div class="container-xxl py-5">
         <div class="container">
           <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title text-center text-primary text-uppercase">
+            <h6
+              class="section-title text-center text-primary text-uppercase"
+              data-translate="c"
+            >
               CHOOSE US
             </h6>
-            <h1 class="mb-5">
+            <h1 class="mb-5" data-translate="whychoose">
               WHY CHOOSE
               <span class="text-primary text-uppercase">US</span>
             </h1>
@@ -732,7 +675,7 @@
                   <img class="img-fluid" src="img/team-1.jpg" alt="" />
                 </div>
                 <div class="text-center p-4 mt-3">
-                  <h5 class="fw-bold mb-0">Title</h5>
+                  <h5 class="fw-bold mb-0">DISTRIBUTION PANELS</h5>
                 </div>
               </div>
             </div>
@@ -745,7 +688,7 @@
                   <img class="img-fluid" src="img/team-2.jpg" alt="" />
                 </div>
                 <div class="text-center p-4 mt-3">
-                  <h5 class="fw-bold mb-0">Title</h5>
+                  <h5 class="fw-bold mb-0">SMART MOTOR STARTER</h5>
                 </div>
               </div>
             </div>
@@ -758,7 +701,7 @@
                   <img class="img-fluid" src="img/team-3.jpg" alt="" />
                 </div>
                 <div class="text-center p-4 mt-3">
-                  <h5 class="fw-bold mb-0">Title</h5>
+                  <h5 class="fw-bold mb-0">GRID INDUSTRY ANCILLARY SERVICE</h5>
                 </div>
               </div>
             </div>
@@ -771,7 +714,7 @@
                   <img class="img-fluid" src="img/team-4.jpg" alt="" />
                 </div>
                 <div class="text-center p-4 mt-3">
-                  <h5 class="fw-bold mb-0">Title</h5>
+                  <h5 class="fw-bold mb-0">MEDIUM VOLTAGE</h5>
                 </div>
               </div>
             </div>
@@ -787,22 +730,22 @@
             <div class="border rounded text-center p-1">
               <div class="bg-white rounded text-center p-5">
                 <img
-                  src="img/fully_drawout1.jpg"
-                  alt=""
-                  class="img-fluid img-thumbnail"
+                  src="img/th-417973252.jpg"
+                  alt="Responsive image"
+                  class="img-thumbnail"
+                  style="width: 100px"
                 />
                 <hr />
-                <h4 class="mb-4" data-translate="best">
-                  Best
-                  <span class="text-primary text-uppercase" data-translate="ch"
+                <h4 class="mb-4">
+                  BPEC
+                  <!-- <span class="text-primary text-uppercase" data-translate="ch"
                     >Choice</span
-                  >
+                  > -->
                 </h4>
                 <div class="position-relative mx-auto" style="max-width: 400px">
-                  <p>
-                    We are a team of engineers who have formed a young startup
-                    aimed at the engineering of electrical systems as well as of
-                    industrial automation operating in the Oil & Gas sector.
+                  <p style="text-transform: capitalize" data-translate="bpec">
+                    BPEC is A New way to approach internet people linking in
+                    reliable and responsable life mode
                   </p>
                 </div>
               </div>
@@ -836,13 +779,13 @@
               </h6>
               <!-- data-translate="location" -->
               <p class="mb-2">
-                <i class="fa fa-map-marker-alt me-3"></i>Location Here
+                <i class="fa fa-map-marker-alt me-3"></i>Milan Lom
               </p>
               <p class="mb-2">
-                <i class="fa fa-phone-alt me-3"></i>+20123456789
+                <i class="fa fa-phone-alt me-3"></i>(+20)01201391162
               </p>
               <p class="mb-2">
-                <i class="fa fa-envelope me-3"></i>mn-ingeniaria@gmail.com
+                <i class="fa fa-envelope me-3"></i>m.elshafei@mn-ingeniaria.com
               </p>
               <div class="d-flex pt-2">
                 <a class="btn btn-outline-light btn-social" href=""

@@ -568,15 +568,18 @@
 .lang-menu {
   text-align: right;
   font-weight: bold;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   position: relative;
   margin-right: 50px;
+
+  max-width: fit-content;
 }
 .lang-menu .selected-lang {
   display: flex;
   justify-content: space-between;
   cursor: pointer;
   position: relative;
+  outline: none;
 }
 .lang-menu .selected-lang:hover {
   color: #2e00ff;
@@ -628,4 +631,20 @@
 
 .lang-menu:hover ul {
   display: block;
+}
+
+@media (max-width: 991px) {
+  .lang-menu select {
+    background-color: rgb(255, 255, 255);
+    color: rgb(100, 100, 100);
+    border-color: rgb(151, 151, 151);
+  }
+  .lang-menu {
+    margin: 0;
+    color: white;
+  }
+}
+.lang-menu select:focus {
+  box-shadow: none;
+  border-color: #bebebe;
 }
