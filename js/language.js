@@ -37,10 +37,10 @@ const translations = {
   },
 
   ital: {
-    home: "Casa",
-    product: "Prodotto",
-    about: "Di",
-    contact: "Contatto",
+    home: "PAGINA INIZIALE",
+    product: "PRODOTTI E SERVIZI",
+    about: "CHI SIAMO",
+    contact: "CONTATTACI",
     choice: "La tua scelta migliore",
     products: "Prodotti",
     explore: "Esplora i nostri prodotti",
